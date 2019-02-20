@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <title>博库网</title>
+    <link rel="SHORTCUT ICON" href="../img/bb.PNG">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+
+    <body>
+    <div id="box">
+        <header class='loginheader'>
+            <div class="header con">
+                <ul class="ul1">
+                    <li><span><a class="header_a" href="../html/reg.html">登录</a></span></li>
+                    <li><a href="../html/login.html">免费注册</a></li>
+                </ul>
+                <div class='app'>
+                    <a href="#">
+                        <a href="../index.html"><img src="../img/app.png" alt="" /> <span>下载博库APP</span></a>
+                        
+                    </a>
+                </div>
+                <ul class="ul2">
+                    <li class='ul3'>
+                        <span>
+                            <a href="#">我的博库
+                                <img src="../img/login_header.png" alt="" /> </a></span>
+                                <ul class="ul33">
+                                    <li><a href="#">我的订单</a></li>
+                                    <li><a href="#">我的优惠劵</a></li> 
+                                    <li><a href="#">我的收藏</a></li>
+                                    <li><a href="#">我的收入</a></li>
+                                    <li><a href="#">官方消息</a></li>  
+                            </ul>
+                        
+                    </li>
+                    <li><span><a href="#">收藏夹</a></span></li>
+                    <li><span><a href="#">店铺收藏</a></span></li>
+                    <li><span class="ul2a"><a href="#" >联系客服</a></span> </li>
+                </ul>
+            </div>
+        </header>
+        <div class="logo con"><a href="../index.html"><img src="../img/logo.png" alt="" /></a></div>
+        <main>
+            <div class="main con">
+                <hr />
+                <h2>用户注册</h2>
+                <span class='login1'>1.填写注册信息</span>
+                <span class='login2'>2.注册成功</span>
+                    <form action="#">
+                        <span class='username'>手机号：</span><input type="text"  id="username" /><span id="verifyUserNameMsg"></span>
+                        <br />
+                        <span>图形验证码：</span><input type="text" id="textyzm" /><del id='yzm'></del><a href="#" id='scyzm'>看不清，换一张</a>
+                        <br />
+                        <span class="password">密码：</span><input type="password" id="password" /><span id="verifyPassWordMsg"></span>
+                        <br />
+                        <span id="verifyyzmMsg"></span> 
+                        <br />
+                        <input type="button" id="login_btn" value="注册" />
+                        <br />
+                        <a href="../html/reg.html" class="reg"  >已有账号 前往登录</a>
+                        <br />
+                    </form>
+            </div>
+        </main>
+    </div>
+    </body>
+</html>

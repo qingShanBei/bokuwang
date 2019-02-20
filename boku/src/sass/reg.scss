@@ -1,0 +1,134 @@
+.box{
+    width: 100%;
+    .header{
+        .logo{
+           margin-top:28px; 
+           height: 62px;
+           margin-bottom:10px;
+        }
+    }
+    main{
+        width: 100%;
+        height: 500px;
+        background: url(../img/lunbotu1.png) no-repeat center;
+        background-size: auto 100%;
+        .main{
+            position:relative;
+            form{
+                position: absolute;
+                height: 379px;
+                width: 360px;
+                top: 65px;
+                left: 741px;
+                background: white;
+                padding-top: 23px;
+                padding-left: 13px;
+                padding-right: 13px;
+                font-size: 12px;
+                color: #2DB4EA;
+                input{
+                    height: 32px;
+                }
+                hr{
+                    color: #E4E4E4;
+                }
+                a {
+                    color:black;
+                }
+                .name,.pass{
+                margin-top: 5px;
+                width: 100%;
+                border: 1px solid #E4E4E4;
+                height: 32px;
+                margin-bottom: 1px;
+                position:relative;
+                }
+                #username,#password{ 
+                    width: 283px;
+                    top: 1px;
+                    position: absolute;
+                    left: 47px;
+                    height: 27px;
+                }
+                .username,.password{
+                    display:inline-block;
+                    width:49px;
+                    height: 32px;
+                    background: url(../img/username.png) no-repeat;
+                }
+                .password{
+                   background: url(../img/password.png) no-repeat;  
+                }
+                #textyzm{
+                    width: 141px;
+                    border: 1px solid #E4E4E4;
+                }
+                #yzm{
+                    vertical-align: middle;
+                    margin-left: 8px;
+                     margin-right: 8px;
+                    display:inline-block;
+                    width: 52px;
+                    height: 20px;
+                    /*background: #555;*/
+                }
+                .imgInputName{
+                    position:absolute;
+                    top: 10px;
+                    left:10px;
+                }
+                .imgInputName{
+                    position:absolute;
+                    top: 10px;
+                    left:10px;
+                }
+                #reg_btn{
+                   width: 100%;
+                   background: #2DB4EA; 
+                   color:#fff;
+                   font-size: 700;
+                }
+                .dlfs{
+                    margin-right: 40px;
+                    img{
+                        margin-right: 5px;
+                    }
+                }
+                .login1{
+                    display:block;
+                    width:100%;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    margin-top: 10px;
+                    border: 1px solid #ccc;
+                    a{
+                        color:#2DB4EA;
+                    }
+                }
+                .abs{
+                    position:absolute;
+                    right: 5px;
+                    bottom: 71px;
+                    display: block;
+                    width: 32px;
+                    height: 21px;
+                    transform: rotateZ(30deg);
+                    background: #fff;
+                    border-bottom:1px solid #ccc;
+                }
+                .abss{
+                    position:absolute;
+                    right: 5px;
+                    bottom: 37px;
+                    display: block;
+                    width: 33px;
+                    height: 21px;
+                    transform: rotateZ(147deg);
+                    background: #fff;
+                    border-bottom:1px solid #ccc;
+                }
+            }
+        }
+    }
+}

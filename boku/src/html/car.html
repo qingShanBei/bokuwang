@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="SHORTCUT ICON" href="../img/bb.PNG">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/carts.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/carts.js"></script>
+    
+</head>
+<body>
+    <header class="zhuyeheader">
+            <div class="header con">
+                <ul class="ul1">
+                    <li class="header_a1"><span><a class="header_a" href="reg.html">登录</a></span></li>
+                    <li ><a class="header_a2" href="login.html">免费注册</a></li>
+                </ul>
+                <div class='app'>
+                    <a href="#">
+                        <img src="../img/app.png" alt="" /> 
+                        <span>下载博库APP</span>
+                    </a>
+                </div>
+                <ul class="ul2">
+                    <li class='ul3'>
+                        <span>
+                            <a href="#">我的博库
+                                <img src="../img/login_header.png" alt="" /> </a></span>
+                                <ul class="ul33">
+                                 <li><a href="#">我的博库</a></li>
+                                    <li><a href="#">我的订单</a></li>
+                                    <li><a href="#">我的优惠劵</a></li> 
+                                    <li><a href="#">我的收藏</a></li>
+                                    <li><a href="#">我的收入</a></li>
+                                    <li><a href="#">官方消息</a></li>  
+                            </ul>
+                        
+                    </li>
+                    <li><span><a href="#">收藏夹</a></span></li>
+                    <li><span><a href="#">店铺收藏</a></span></li>
+                    <li><span class="ul2a"><a href="#" >联系客服</a></span> </li>
+                </ul> 
+            </div>
+        </header>
+            <div class="logo con">
+                 <a href="../index.html"><img src="../img/logo.png" alt="" /></a>
+            </div>
+            <div class="car_mas con"><h2>我的购物车</h2> <p>温馨提示:1.购物车中的商品无法保留库存，请您尽快完成购买。2.商品的价格和库存将以订单提交时为准哦。</p></div>
+
+        <!-- 购物车 -->
+    <section class="cartMain">
+        <div class="cartMain_hd">
+            <ul class="order_lists cartTop">
+                <li class="list_chk">
+                    <!--所有商品全选-->
+                    <input type="checkbox" id="all" class="whole_check">
+                    <label for="all"></label>
+                    全选
+                </li>
+                <li class="list_con">商品信息</li>
+                <li class="list_price">单价</li>
+                <li class="list_amount">数量</li>
+                <li class="list_sum">金额</li>
+                <li class="list_op">操作</li>
+            </ul>
+        </div>
+
+        <div class="cartBox">
+            <div class="shop_info">
+                <div class="all_check">
+                    <!--店铺全选-->
+                    <input type="checkbox" id="shop_a" class="shopChoice">
+                    <label for="shop_a" class="shop"></label>
+                </div>
+                <div class="shop_name">
+                    自营 运费：<a href="javascript:;">5.00</a>
+                    <p>图书仓</p>
+                </div>
+            </div>
+            <div class="order_content">
+            </div>
+        </div>
+
+        
+        <!--底部-->
+        <div class="bar-wrapper">
+        <div class="bar-left">
+            <div class="all11">
+                <input type="checkbox" id="all1" class="whole_check">
+                <label for="all"></label>全选
+            </div>
+         
+            <div class="piece">已选商品<strong class="piece_num">0</strong>件
+            </div>
+        <div class="delte"><a href="javascript:;">删除选中的商品</a></div>
+        </div>
+            <div class="bar-right">
+                
+                <div class="totalMoney">应付金额(不含运费): <strong class="total_text">0.00</strong></div>
+                <div class="totalMoney1">商品合计: <span class="total_text1">0.00</span> 邮费： <span class="total_text2">0.00</span> </div>
+                <div class="calBtn"><a href="javascript:;">去结算</a></div>
+            </div>
+        </div>
+    </section>
+    <section class="model_bg"></section>
+    <section class="my_model">
+        <p class="title">删除宝贝<span class="closeModel">X</span></p>
+        <p class="del_massage">您确认要删除该宝贝吗？</p>
+        <div class="opBtn"><a href="javascript:;" class="dialog-sure">确定</a><a href="javascript:;" class="dialog-close">关闭</a></div>
+    </section>
+    <div class="empty con">
+        <h3>您的购物车空空的，快去选购吧</h3>
+            <a href="../index.html">继续逛</a>
+    </div>
+
+    <footer>
+        <img src="../img/footer1.png" alt="" />
+        <p></p>
+            <div class="footer con">
+                <ul class="footer_ul1">
+                    <li>新手指南</li>
+                    <li><a href="javascript:;">新用户注册</a></li>
+                    <li><a href="javascript:;">购物流程</a></li>
+                    <li><a href="javascript:;">积分制度</a></li>
+                    <li><a href="javascript:;">注册开店</a></li>
+                    <li><a href="javascript:;">激励制度</a></li>
+                </ul>
+                <ul class="footer_ul2">
+                    <li>支付与配送</li>
+                    <li><a href="javascript:;">IC卡充值说明</a></li>
+                    <li><a href="javascript:;">验货与验收</a></li>
+                    <li><a href="javascript:;">配送范围</a></li>
+                    <li><a href="javascript:;">自行取货</a></li>
+                    <li><a href="javascript:;">支付方式</a></li>
+                </ul>
+                <ul class="footer_ul3">
+                    <li>售后服务</li>
+                    <li><a href="javascript:;">发票制度</a></li>
+                    <li><a href="javascript:;">退换货流程</a></li>
+                    <li><a href="javascript:;">7天无理由退换货</a></li>   
+                </ul>
+                <ul class="footer_ul4">
+                    <li>个人中心</li>
+                    <li><a href="javascript:;">店铺设置</a></li>
+                    <li><a href="javascript:;">团队管理</a></li>
+                    <li><a href="javascript:;">收入管理</a></li>
+                    <li><a href="javascript:;">我的订单</a></li>
+                    <li><a href="javascript:;">我的优惠劵</a></li>
+                    <li><a href="javascript:;">我的等级</a></li>
+                </ul>
+                <ul class="footer_ul5">
+                    <li>了解博库</li>
+                    <li><a href="javascript:;">关于博库</a></li>
+                    <li><a href="javascript:;">联系我们</a></li>
+                    <li><a href="javascript:;">博库网隐私政策</a></li>
+                    <li><a href="javascript:;">博库用户注册协议</a></li>
+                    <li><a href="javascript:;">博库网分销商注册协议</a></li>
+                </ul>
+                <p class="footer_p"></p>
+                <img src="../img/footer2.png" alt="" />
+            </div>
+        </footer>
+        <div id='footer_bottom'>
+            <div class='footer_bottom con'>   
+                <img src="../img/footer3.png" alt="" />
+            </div>
+            
+        </div>
+        <div class="last"></div>
+</body>
+</html>
